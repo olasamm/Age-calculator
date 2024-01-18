@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<body>
+    
+<div class="container-fluid mx-auto col-lg-7 shadow-lg mt-lg-5 mt-2 p-3">
+    <h1 class="text-center text-decoration-underline my-3">Mini mart</h1>
+    <div class="alert alert-danger p-1  text-center fw-bold " id="error" style="display: none;">input field cannot be empty</div>
+    <input type="" class="form-control shadow-none form-control-sm my-2" id="imp">
+    <button class="w-100 btn btn-outline-danger my-2 btn-sm" onclick="addItems()">Submit</button>
+    <button class=" fw-bold btn btn-danger mx-2 my-2" onclick="add()">Add to beginning</button>
+    <button class=" fw-bold btn btn-danger mx-2 my-2" onclick="deletes()">Delete first</button>
+    <button class=" fw-bold btn btn-danger" onclick="last()">Delete last</button>
+    <button class=" fw-bold btn btn-danger" onclick="any()">Delete any</button>
+    <button class=" fw-bold btn btn-danger" id="push">Edict any</button>
+    <button class=" fw-bold btn btn-danger" id="push">Delete All</button>
+</div>
+
+
+<div class=" mx-auto col-lg-7 p-3 shadow-sm" id="show"></div>
+    <script src="script.js"></script>
+</body>
+</html>

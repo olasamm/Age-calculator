@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameterised function</title>
+</head>
+
+<body>
+    <div>
+        <button  class="modal-dialog modal-dialog-scrollable" onclick="sayName('Kesh', 66)">Kesh</button>
+        <button onclick="sayName('Adeola', 60)">Adeola</button>
+        <button onclick="sayName('Shukroh', 63)">Shukroh</button>
+        <button onclick="sayName('Clement', 62)">Clement</button>
+
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div>hi</div>
+        </div>
+    </div>
+
+    <script>
+        function sayName(val, age) {
+            console.log(`My name is ${val} and my age is ${age}`);
+        }
+    </script>
+</body>
+
+</html>

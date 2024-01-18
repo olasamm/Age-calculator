@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-lg-5  col-lg-5 col-10 p-2 my-5" style="box-shadow: 0 0 5px rgb(74, 74, 74);">
+        <h3 class="text-center">Age calculate</h3>
+        <div class=" alert alert-danger fw-bold p-1 text-center" style="display: none;" id="error">space can't be empty</div>
+    <input type="number" placeholder="enter the current year" class="form-control shadow-none" style="width: 500px;" id="age">
+    
+    <button class="form-control btn btn-outline-danger mt-3" onclick="calculate()">calculate Age</button>
+    <p id="show" class="text-center my-2"></p>
+</div>
+
+    
+
+    <script>
+    function calculate() {
+    var currentYear = 2024
+        error.style.display = "block"
+    var age = document.getElementById('age').value 
+    var answer = currentYear - age
+    show.innerHTML = answer       
+    }
+    </script>
+
+    <!-- <script>
+for (i = 1; i <= 12; i++) {
+    for (j = 1; j <= 12; j++) {
+       
+        show.innerHTML +=`<p style="color:red">${i} x ${j} = ${i*j}</>`;
+       show.innerHTML += i + "x" + j + "=" + i*j;
+        
+    }
+}
+</script> -->
+
+    
+</body>
+</html>
